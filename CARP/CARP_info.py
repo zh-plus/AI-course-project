@@ -1,4 +1,5 @@
 import numpy as np
+from PIL import Image, ImageDraw
 
 from floyd_warshall import floyd_warshall_fastest
 
@@ -21,6 +22,17 @@ class Edge:
 
     def __str__(self):
         return str((self.u, self.v, self.cost, self.demand))
+
+
+class Solution:
+    def __init__(self, routes, loads, costs, total_cost, valid=True):
+        self.routes = routes
+        self.loads = loads
+        self.costs = costs
+        self.total_cost = total_cost
+        self.valid = valid
+
+
 
 
 class CARPInfo:
@@ -59,6 +71,19 @@ class CARPInfo:
             arr[v, u] = cost
 
         self.min_dist = floyd_warshall_fastest(arr)
+
+    def visualise(self, solution):
+
+        im = Image.new('RGB', (500, 500), "white")  # create a new black image
+        draw = ImageDraw.Draw(im)
+        for i, route in enumerate(solution.routes):
+            r_c = (i * i) % 255
+            g_c = (i * r_c) % 255
+            b_c = (i * g_c) % 255
+            nodes = route.route
+            norm = lambda x, y: (2 * x + 250, 2 * y + 250)
+            draw.line([norm(*self.coords[n]) for n in nodes], fill=(r_c, g_c, b_c), width=2)
+        return im
 
     def __str__(self):
         s = '''name: {}
