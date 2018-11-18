@@ -2,8 +2,6 @@ import numpy as np
 import random
 from typing import Dict, Tuple
 from copy import copy, deepcopy
-import multiprocessing
-import os
 
 from CARP_info import CARPInfo, Edge, Solution, get_cost, get_costs
 
@@ -34,6 +32,8 @@ class CARPAlgorithm:
 
         self.population_size = population_size
         self.population = self.initialize()
+
+        # print(self.population)
 
     def path_scanning(self, rule):
         free: Dict[Tuple[int, int], Edge] = self.tasks.copy()
@@ -135,6 +135,10 @@ class CARPAlgorithm:
         pre_end = inserting_arc[inserting_position - 1][1] if inserting_position != 0 else self.depot
         next_start = inserting_arc[inserting_position][0] if inserting_position != len(inserting_arc) else self.depot
 
+        # print('new_solution.costs:', new_solution.costs)
+        # print('inserting_arc_index:', inserting_arc_index)
+        # print('inserting_arc:', inserting_arc)
+
         changed_cost = self.min_dist[pre_end, u] + self.min_dist[v, next_start] + task.cost - self.min_dist[pre_end, next_start]
         reversed_changed_cost = self.min_dist[pre_end, v] + self.min_dist[u, next_start] + task.cost - self.min_dist[pre_end, next_start]  # (v, u)
         if reversed_changed_cost < changed_cost:
@@ -152,6 +156,12 @@ class CARPAlgorithm:
 
         inserting_arc.insert(inserting_position, selected_task)
 
+        # print('selected_arc:', selected_arc)
+        # print('selected_task_index:', selected_task_index)
+        # print('selected_task:', selected_task)
+        # print('inserting_arc:', inserting_arc)
+        # print('inserting_position:', inserting_position)
+        # print('\n\n')
         new_solution.check_valid()
 
         return new_solution
@@ -196,6 +206,10 @@ class CARPAlgorithm:
         pre_end = inserting_arc[inserting_position - 1][1] if inserting_position != 0 else self.depot
         next_start = inserting_arc[inserting_position][0] if inserting_position != len(inserting_arc) else self.depot
 
+        # print('new_solution.costs:', new_solution.costs)
+        # print('inserting_arc_index:', inserting_arc_index)
+        # print('inserting_arc:', inserting_arc)
+
         changed_cost = self.min_dist[pre_end, u1] + task1.cost + self.min_dist[v1, u2] + task2.cost + self.min_dist[v2, next_start] \
                        - self.min_dist[pre_end, next_start]
         reversed_changed_cost = self.min_dist[pre_end, v2] + task1.cost + self.min_dist[u2, v1] + task2.cost + self.min_dist[u1, next_start] \
@@ -213,6 +227,13 @@ class CARPAlgorithm:
             new_solution.costs[inserting_arc_index] += changed_cost
             new_solution.loads[inserting_arc_index] += task1.demand + task2.demand
         new_solution.total_cost += changed_cost
+
+        # print('\n\n')
+        # print('selected_arc:', selected_arc)
+        # print('selected_task_index:', selected_task_index)
+        # print('selected_task:', selected_task1, selected_task2)
+        # print('inserting_arc:', inserting_arc)
+        # print('inserting_position:', inserting_position)
 
         inserting_arc.insert(inserting_position, selected_task2)
         inserting_arc.insert(inserting_position, selected_task1)
@@ -250,6 +271,7 @@ class CARPAlgorithm:
         pre_end2 = selected_arc2[selected_task_index2 - 1][1] if selected_task_index2 != 0 else self.depot
         next_start2 = selected_arc2[selected_task_index2 + 1][0] if selected_task_index2 != len(selected_arc2) - 1 else self.depot
 
+        # print(selected_arc2, selected_task_index1, selected_task_index2)
         selected_task1 = selected_arc1.pop(selected_task_index1)
         if selected_arc_index1 == selected_arc_index2 and selected_task_index1 < selected_task_index2:
             selected_task2 = selected_arc2.pop(selected_task_index2 - 1)
@@ -268,7 +290,9 @@ class CARPAlgorithm:
         new_solution.total_cost += changed_cost1
         new_solution.loads[selected_arc_index1] += task2.demand - task1.demand
 
+        # print(selected_arc1)
         selected_arc1.insert(selected_task_index1, selected_task2)
+        # print(selected_arc1)
 
         # second arc cost change : insert task1 into arc2
         reduced_cost2 = self.min_dist[pre_end2, u2] + task2.cost + self.min_dist[v2, next_start2]
@@ -282,14 +306,100 @@ class CARPAlgorithm:
         new_solution.total_cost += changed_cost2
         new_solution.loads[selected_arc_index2] += task1.demand - task2.demand
 
+        # print(selected_arc2)
         selected_arc2.insert(selected_task_index2, selected_task1)
+        # print(selected_arc2)
+        # print('\n---------')
 
         if selected_arc_index1 == selected_arc_index2:
             new_solution.total_cost = get_cost(new_solution, self.info)
 
+        calculated_cost = get_cost(new_solution, self.info)
+        if new_solution.total_cost != calculated_cost:
+            print(new_solution.costs)
+            print(get_costs(solution, self.info))
+
         new_solution.check_valid()
 
         return new_solution
+
+    # def sequence_based_crossover(self, s1: Solution, s2: Solution):
+    #     i, route1 = random.choice(list(enumerate(s1.routes)))
+    #     route2 = random.choice(s2.routes)
+    #     # Note! the length of route can be 1
+    #
+    #     tasks_needed = set(route1.copy())
+    #
+    #     split1 = random.randint(0, len(route1))
+    #     split2 = random.randint(0, len(route2))
+    #
+    #     new_route = route1[:split1]  # R11
+    #     R22 = route2[split2:]
+    #     new_route.extend(R22)
+    #
+    #     # if there're duplicate task served
+    #     served_task = set()
+    #     duplicated_task = []
+    #     for t in new_route:
+    #         if t in served_task or (t[1], t[0]) in served_task:
+    #             duplicated_task.append(t)
+    #         else:
+    #             served_task.add(t)
+    #     for task in duplicated_task:
+    #         t = [i for i, x in enumerate(new_route) if x == task or x == (task[1], task[0])]
+    #         print(t)
+    #         index1, index2 = t
+    #         u1, v1 = new_route[index1]
+    #         u2, v2 = new_route[index2]
+    #         pre_end1 = new_route[index1 - 1][1] if index1 != 0 else self.depot
+    #         next_start1 = new_route[index1 + 1][0] if index1 != len(new_route) - 1 else self.depot
+    #         pre_end2 = new_route[index2 - 1][1] if index2 != 0 else self.depot
+    #         next_start2 = new_route[index2 + 1][0] if index2 != len(new_route) - 1 else self.depot
+    #
+    #         changed_cost1 = self.min_dist[pre_end1, next_start1] - self.min_dist[pre_end1, u1] - self.min_dist[v1, next_start1]
+    #         changed_cost2 = self.min_dist[pre_end2, next_start2] - self.min_dist[pre_end2, u2] - self.min_dist[v2, next_start2]
+    #
+    #         del_index = index2
+    #         if changed_cost1 < changed_cost2:
+    #             del_index = index1
+    #
+    #         del new_route[del_index]
+    #
+    #     # if there're task not served
+    #     for t in served_task.copy():
+    #         served_task.add((t[1], t[0]))
+    #     task_not_served = tasks_needed - served_task
+    #     for task in task_not_served:
+    #         self.best_insert_task(new_route, task)
+    #
+    #     new_routes = s1.routes.copy()
+    #     new_routes[i] = new_route
+    #
+    #     new_solution = Solution.generate_from_route(new_routes, self.info)
+    #     return new_solution
+    #
+    # def best_insert_task(self, route, task):
+    #     best_posi = 0
+    #     min_cost = np.inf
+    #     u, v = task
+    #     reverse = False
+    #     for i in range(len(route) + 1):
+    #         pre_end = route[i - 1][1] if i != 0 else self.depot
+    #         next_start = route[i][0] if i != len(route) else self.depot
+    #         this_cost = self.min_dist[pre_end, u] + self.min_dist[v, next_start]
+    #         reversed_this_cost = self.min_dist[pre_end, v] + self.min_dist[u, next_start]
+    #         if this_cost < min_cost:
+    #             min_cost = this_cost
+    #             best_posi = i
+    #             reverse = True
+    #         if reversed_this_cost < min_cost:
+    #             min_cost = this_cost
+    #             best_posi = i
+    #             reverse = True
+    #     if reverse:
+    #         route.insert(best_posi, (u, v))
+    #     else:
+    #         route.insert(best_posi, (v, u))
 
     def get_total_cost(self, x):
         return x.total_cost
@@ -304,15 +414,38 @@ class CARPAlgorithm:
 
         return new_solution
 
+    # def step(self):
+    #     for _ in range(30):
+    #         # parent1 = min(random.sample(self.population, 5), key=lambda x: x.fitness)
+    #         # parent2 = min(random.sample(self.population, 5), key=lambda x: x.fitness)
+    #         parent1, parent2 = random.sample(self.population, 2)
+    #         while parent1 == parent2:
+    #             parent2 = min(random.sample(self.population, 5), key=lambda x: x.fitness)
+    #         # 1, 2 can be same
+    #         child = self.sequence_based_crossover(parent1, parent2)
+    #
+    #         s_child = self.local_search(child)
+    #         if s_child not in self.population:
+    #             child = s_child
+    #         self.population.add(child)
+    #
+    #     valid_population = [p for p in self.population if p.is_valid]
+    #     return min(valid_population, key=self.get_total_cost)
+
+    def run(self, individual):
+        if random.random() > individual.discard_prop:
+            if random.random() > self.mutation_rate:
+                new_solution = min([move(individual) for move in self.move], key=self.get_total_cost)
+                # print(new_solution.non_valid_generations, new_solution.discard_prop)
+                if random.random() > new_solution.discard_prop:
+                    self.population.add(new_solution)
+        else:
+            self.population.remove(individual)
+
     def step(self):
+        pool = mul
         for individual in self.population.copy():
-            if random.random() > individual.discard_prop:
-                if random.random() > self.mutation_rate:
-                    new_solution = min([move(individual) for move in self.move], key=self.get_total_cost)
-                    if random.random() > new_solution.discard_prop:
-                        self.population.add(new_solution)
-            else:
-                self.population.remove(individual)
+            self.run(individual)
 
         while len(self.population) > self.population_size:
             worst_individual = max(self.population, key=self.get_total_cost)

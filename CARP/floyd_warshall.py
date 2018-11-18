@@ -18,36 +18,3 @@ def floyd_warshall_fastest(adjacency_matrix):
         adjacency_matrix = minimum(adjacency_matrix, adjacency_matrix[newaxis, k, :] + adjacency_matrix[:, k, newaxis])
 
     return adjacency_matrix
-
-
-def testing_floyd_warshall_algorithms_on_small_matrix():
-    from numpy import array, inf
-    INPUT = array([
-        [0., inf, -2., inf],
-        [4., 0., 3., inf],
-        [inf, inf, 0., 2.],
-        [inf, -1., inf, 0.]
-    ])
-
-    mat = floyd_warshall_fastest(INPUT)
-    print(mat)
-    print(INPUT)
-
-    OUTPUT = array([
-        [0., -1., -2., 0.],
-        [4., 0., 2., 4.],
-        [5., 1., 0., 2.],
-        [3., -1., 1., 0.]])
-
-    INPUT1 = array([
-        [0, 5, inf, 7],
-        [inf, 0, 4, 2],
-        [3, 3, 0, 2],
-        [inf, inf, 1, 0]
-    ])
-
-    print(floyd_warshall_fastest(INPUT1))
-
-
-if __name__ == '__main__':
-    testing_floyd_warshall_algorithms_on_small_matrix()

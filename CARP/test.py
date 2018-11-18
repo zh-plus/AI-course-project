@@ -17,5 +17,5 @@ class Timer(object):
 
 
 with Timer():
-    os.system('python CARP_solver.py C:\\Users\\10578\\PycharmProjects\\AICourse\\CARP\\CARP_samples\\egl-s1-A.dat -t 600 -s 1')
+    os.system('python CARP_solver.py C:\\Users\\10578\\PycharmProjects\\AICourse\\CARP\\CARP_samples\\gdb1.dat -t 10 -s 1')
     # print(1)
