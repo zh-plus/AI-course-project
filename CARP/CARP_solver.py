@@ -1,8 +1,7 @@
 import numpy as np
 from time import perf_counter
 import random
-import tkinter as tk
-from tkinter import filedialog
+import os
 
 from CARP_algorithm import CARPAlgorithm
 from CARP_info import CARPInfo, get_cost
@@ -13,6 +12,7 @@ class CARPHandler:
         self.info = CARPInfo(instance_path)
         self.termination = termination
         self.test = test
+        self.path = instance_path
 
         # print(self.info)
 
@@ -55,21 +55,26 @@ class CARPHandler:
             avg_time = 0.6 * avg_time + 0.4 * iter_time
             time_remain -= iter_time
             if self.test:
-                print('iter {} \t\tpopulation: {} \ttime: {:5.3} s \tavg: {:5.3} s \tremain: {:.3f} s \tcost: {}'.format(iter_num,
-                                                                                                                         len(solver.population),
-                                                                                                                         iter_time,
-                                                                                                                         avg_time,
-                                                                                                                         time_remain,
-                                                                                                                         best.total_cost))
+                print('pid: {} \tsample: {} \titer {} \t\tpopulation: {} \ttime: {:5.3} s \tavg: {:5.3} s \tremain: {:.3f} s \tcost: {}'.format(
+                    os.getpid(),
+                    self.path.split('\\')[-1],
+                    iter_num,
+                    len(solver.population),
+                    iter_time,
+                    avg_time,
+                    time_remain,
+                    best.total_cost)
+                )
 
         self.handle_output(best)
+        return int(best.total_cost)
 
 
 if __name__ == '__main__':
     import sys
 
     if len(sys.argv) == 1:
-        sys.argv = ['CARP_solver.py', 'C:\\Users\\10578\\PycharmProjects\\AICourse\\CARP\\CARP_samples\\eglese\\egl-e1-A.dat', '-t', '120', '-s', '1']
+        sys.argv = ['CARP_solver.py', 'E:\Python\AICourse\CARP\CARP_samples\egl-e1-A.dat', '-t', '120', '-s', '1']
 
     path, termination, seed = [sys.argv[i] for i in range(len(sys.argv)) if i % 2 == 1]
     termination, seed = int(termination), int(seed)
