@@ -1,6 +1,8 @@
 import numpy as np
 from time import perf_counter
 import random
+import tkinter as tk
+from tkinter import filedialog
 
 from CARP_algorithm import CARPAlgorithm
 from CARP_info import CARPInfo, get_cost
@@ -37,7 +39,7 @@ class CARPHandler:
         time_remain = self.termination - 2
         start_time = perf_counter()
 
-        solver = CARPAlgorithm(self.info, 100)
+        solver = CARPAlgorithm(self.info, 150)
         time_remain -= perf_counter() - start_time
 
         iter_num = 0
@@ -67,11 +69,11 @@ if __name__ == '__main__':
     import sys
 
     if len(sys.argv) == 1:
-        sys.argv = ['CARP_solver.py', 'C:\\Users\\10578\\PycharmProjects\\AICourse\\CARP\\CARP_samples\\egl-e1-A.dat', '-t', '10', '-s', '1']
+        sys.argv = ['CARP_solver.py', 'C:\\Users\\10578\\PycharmProjects\\AICourse\\CARP\\CARP_samples\\eglese\\egl-e1-A.dat', '-t', '120', '-s', '1']
 
     path, termination, seed = [sys.argv[i] for i in range(len(sys.argv)) if i % 2 == 1]
     termination, seed = int(termination), int(seed)
     # print(file, termination, seed)
-    handler = CARPHandler(path, int(termination), seed, test=False)
+    handler = CARPHandler(path, int(termination), seed, test=True)
     handler.run()
     sys.exit(0)
