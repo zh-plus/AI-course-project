@@ -108,7 +108,7 @@ class ISE:
         active_set = copy(self.seeds)
         pre_active_set = copy(self.seeds)
 
-        threshold = np.random.random(size=graph.V + 1)
+        threshold = np.random.random(graph.V + 1)
         influenced = len(active_set)
         while len(active_set):
             new_active_set = set()
@@ -133,7 +133,7 @@ if __name__ == '__main__':
     start = perf_counter()
 
     if len(sys.argv) == 1:
-        sys.argv = ['ISE.py', '-i', 'network.txt', '-s', 'seeds2.txt', '-m', 'IC', '-t', '4']
+        sys.argv = ['ISE.py', '-i', 'network.txt', '-s', 'seeds2.txt', '-m', 'IC', '-t', '5']
 
     ise = ISE()
     elapse = perf_counter() - start
