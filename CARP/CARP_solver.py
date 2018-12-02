@@ -8,11 +8,12 @@ from CARP_info import CARPInfo, get_cost
 
 
 class CARPHandler:
-    def __init__(self, instance_path, termination, seed, test=False):
+    def __init__(self, instance_path, termination, seed, population_size=100, test=False):
         self.info = CARPInfo(instance_path)
         self.termination = termination
         self.test = test
         self.path = instance_path
+        self.population_size = population_size
 
         # print(self.info)
 
@@ -39,7 +40,7 @@ class CARPHandler:
         time_remain = self.termination - 2
         start_time = perf_counter()
 
-        solver = CARPAlgorithm(self.info, 150)
+        solver = CARPAlgorithm(self.info, self.population_size)
         time_remain -= perf_counter() - start_time
 
         iter_num = 0
@@ -66,7 +67,7 @@ class CARPHandler:
                     best.total_cost)
                 )
 
-        self.handle_output(best)
+        # self.handle_output(best)
         return int(best.total_cost)
 
 
@@ -74,7 +75,7 @@ if __name__ == '__main__':
     import sys
 
     if len(sys.argv) == 1:
-        sys.argv = ['CARP_solver.py', 'E:\Python\AICourse\CARP\CARP_samples\egl-e1-A.dat', '-t', '120', '-s', '1']
+        sys.argv = ['CARP_solver.py', 'CARP_samples\egl-s1-A.dat', '-t', '10', '-s', '1']
 
     path, termination, seed = [sys.argv[i] for i in range(len(sys.argv)) if i % 2 == 1]
     termination, seed = int(termination), int(seed)

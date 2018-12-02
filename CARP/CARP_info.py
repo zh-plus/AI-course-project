@@ -42,7 +42,6 @@ class Solution:
 
         if self.loads:
             self.discard_prop = 2 * self.load_exceed / sum(self.loads) * pow(3, self.non_valid_generations)
-            self.fitness = self.total_cost / (1 - self.discard_prop)  # lower, better
 
     @staticmethod
     def worst():
@@ -55,7 +54,7 @@ class Solution:
             self.non_valid_generations += 1
 
         self.discard_prop = 2 * self.load_exceed / sum(self.loads) * pow(3, self.non_valid_generations)
-        self.fitness = self.total_cost / (1 - self.discard_prop)
+
 
         if self.routes.count([]):
             for i, c in enumerate(self.routes):
