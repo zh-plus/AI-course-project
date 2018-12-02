@@ -1,3 +1,5 @@
+from typing import List
+
 from timer import Timer
 import numpy as np
 from collections import defaultdict
@@ -12,7 +14,7 @@ class Graph:
         self.V = V
         self.adj = [set() for _ in range(V + 1)]
         self.reverse_adj = [set() for _ in range(V + 1)]
-        self.weight = [0 for _ in range(V + 1)]
+        self.weight = np.zeros(V + 1)
 
     def add_edge(self, u, v):
         self.adj[u].add(v)
@@ -52,9 +54,6 @@ def graph_from_file(path):
         for line in lines[1:]:
             g.add_edge(*read_line(line))
         g.compute_weight()
-
-        print(g.reverse_adj)
-        print(g.weight)
 
     return g
 
