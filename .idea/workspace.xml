@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47ffc3ae-8a03-4d9a-8515-dee8f5b627e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AICourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AICourse.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMP/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/IMP/graph.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,202 +17,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/AICourse$diagonal_test.coverage" NAME="diagonal_test Coverage Results" MODIFIED="1539701019338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$unzip_test.coverage" NAME="unzip_test Coverage Results" MODIFIED="1539755538958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$GobangAINext.coverage" NAME="GobangAINext Coverage Results" MODIFIED="1540654646862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gobang" />
-    <SUITE FILE_PATH="coverage/AICourse$map_test.coverage" NAME="map_test Coverage Results" MODIFIED="1539681811348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$Test.coverage" NAME="Test Coverage Results" MODIFIED="1539629953867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AICourse$defeat.coverage" NAME="defeat Coverage Results" MODIFIED="1540651982178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gobang" />
-    <SUITE FILE_PATH="coverage/AICourse$gobang.coverage" NAME="gobang Coverage Results" MODIFIED="1539707328580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gobang" />
-    <SUITE FILE_PATH="coverage/AICourse$graph.coverage" NAME="graph Coverage Results" MODIFIED="1543662889444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP" />
-    <SUITE FILE_PATH="coverage/AICourse$argvTest.coverage" NAME="argvTest Coverage Results" MODIFIED="1542217055999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$code_check_test.coverage" NAME="code_check_test Coverage Results" MODIFIED="1540655032382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gobang" />
-    <SUITE FILE_PATH="coverage/AICourse$hashTest.coverage" NAME="hashTest Coverage Results" MODIFIED="1542214688477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$CARP_algorithm.coverage" NAME="CARP_algorithm Coverage Results" MODIFIED="1542457914101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP" />
-    <SUITE FILE_PATH="coverage/AICourse$Test__1_.coverage" NAME="Test (1) Coverage Results" MODIFIED="1539532856049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AICourse$edgeTest.coverage" NAME="edgeTest Coverage Results" MODIFIED="1542214932618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$performance_test.coverage" NAME="performance_test Coverage Results" MODIFIED="1540909693322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$game_test.coverage" NAME="game_test Coverage Results" MODIFIED="1539710285615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$randomPerfTest.coverage" NAME="randomPerfTest Coverage Results" MODIFIED="1543662635081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP/Test" />
-    <SUITE FILE_PATH="coverage/AICourse$numpyAppendTest.coverage" NAME="numpyAppendTest Coverage Results" MODIFIED="1543569311691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP" />
-    <SUITE FILE_PATH="coverage/AICourse$code_check.coverage" NAME="code_check Coverage Results" MODIFIED="1539705582836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gobang" />
-    <SUITE FILE_PATH="coverage/AICourse$__test.coverage" NAME="[]test Coverage Results" MODIFIED="1542548371789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$listRemoveTest.coverage" NAME="listRemoveTest Coverage Results" MODIFIED="1542546858431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$Submit_final.coverage" NAME="Submit_final Coverage Results" MODIFIED="1540911131130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gobang" />
-    <SUITE FILE_PATH="coverage/AICourse$intBooleanTest.coverage" NAME="intBooleanTest Coverage Results" MODIFIED="1542218390961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$extendTets.coverage" NAME="extendTets Coverage Results" MODIFIED="1542549270332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$where_test.coverage" NAME="where_test Coverage Results" MODIFIED="1539806651428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$setTest.coverage" NAME="setTest Coverage Results" MODIFIED="1542552274786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$index_test.coverage" NAME="index_test Coverage Results" MODIFIED="1539751990001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$elapseTimeTest.coverage" NAME="elapseTimeTest Coverage Results" MODIFIED="1543676490917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP/Test" />
-    <SUITE FILE_PATH="coverage/AICourse$First.coverage" NAME="First Coverage Results" MODIFIED="1539538889406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gobang" />
-    <SUITE FILE_PATH="coverage/AICourse$Submit_pro.coverage" NAME="Submit_pro Coverage Results" MODIFIED="1540652886780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gobang" />
-    <SUITE FILE_PATH="coverage/AICourse$floyd_warshall.coverage" NAME="floyd_warshall Coverage Results" MODIFIED="1542214024045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/AICourse$npUniformTest.coverage" NAME="npUniformTest Coverage Results" MODIFIED="1543681346615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP/Test" />
-    <SUITE FILE_PATH="coverage/AICourse$setHashTest.coverage" NAME="setHashTest Coverage Results" MODIFIED="1542362276472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$insertTest.coverage" NAME="insertTest Coverage Results" MODIFIED="1542455549677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$pytest_in_floyd_warshall_py.coverage" NAME="pytest in floyd_warshall.py Coverage Results" MODIFIED="1542213647951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP" />
-    <SUITE FILE_PATH="coverage/AICourse$GobangAI.coverage" NAME="GobangAI Coverage Results" MODIFIED="1540649985190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gobang" />
-    <SUITE FILE_PATH="coverage/AICourse$randomSeedTest.coverage" NAME="randomSeedTest Coverage Results" MODIFIED="1542458323706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$solutionTest.coverage" NAME="solutionTest Coverage Results" MODIFIED="1542443446738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$numpyEfficiencyTest.coverage" NAME="numpyEfficiencyTest Coverage Results" MODIFIED="1543569039424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP" />
-    <SUITE FILE_PATH="coverage/AICourse$numpyEfficiencyTest__1_.coverage" NAME="numpyEfficiencyTest (1) Coverage Results" MODIFIED="1543569336416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP/Test" />
-    <SUITE FILE_PATH="coverage/AICourse$CARP_demo.coverage" NAME="CARP_demo Coverage Results" MODIFIED="1542377860936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP" />
-    <SUITE FILE_PATH="coverage/AICourse$test.coverage" NAME="test Coverage Results" MODIFIED="1542542207785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP" />
-    <SUITE FILE_PATH="coverage/AICourse$diagonalTest.coverage" NAME="diagonalTest Coverage Results" MODIFIED="1542216850803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$multiTest.coverage" NAME="multiTest Coverage Results" MODIFIED="1542556077475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$dictCopyTest.coverage" NAME="dictCopyTest Coverage Results" MODIFIED="1542219097336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$01Test.coverage" NAME="01Test Coverage Results" MODIFIED="1543670250624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP/Test" />
-    <SUITE FILE_PATH="coverage/AICourse$numpyMatrixLenTest.coverage" NAME="numpyMatrixLenTest Coverage Results" MODIFIED="1542213493491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$Evaluation.coverage" NAME="Evaluation Coverage Results" MODIFIED="1542824950200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP" />
-    <SUITE FILE_PATH="coverage/AICourse$evaluate_test.coverage" NAME="evaluate_test Coverage Results" MODIFIED="1539626108399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gobang" />
-    <SUITE FILE_PATH="coverage/AICourse$slice_test.coverage" NAME="slice_test Coverage Results" MODIFIED="1540654459623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$dict_test.coverage" NAME="dict_test Coverage Results" MODIFIED="1539690782761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$avgTest.coverage" NAME="avgTest Coverage Results" MODIFIED="1543663640280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP/Test" />
-    <SUITE FILE_PATH="coverage/AICourse$consequenceEqualTest.coverage" NAME="consequenceEqualTest Coverage Results" MODIFIED="1542457120795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$IOTest.coverage" NAME="IOTest Coverage Results" MODIFIED="1542209690219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$CARP_solver.coverage" NAME="CARP_solver Coverage Results" MODIFIED="1542817467440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP" />
-    <SUITE FILE_PATH="coverage/AICourse$stringTest.coverage" NAME="stringTest Coverage Results" MODIFIED="1542211073321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$re_test.coverage" NAME="re_test Coverage Results" MODIFIED="1539667787296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$delEmptyListTest.coverage" NAME="delEmptyListTest Coverage Results" MODIFIED="1542479714734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$recurrenceList.coverage" NAME="recurrenceList Coverage Results" MODIFIED="1542372425164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$tostr_test.coverage" NAME="tostr_test Coverage Results" MODIFIED="1539751020786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$defaultDictTest.coverage" NAME="defaultDictTest Coverage Results" MODIFIED="1543686438437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP/Test" />
-    <SUITE FILE_PATH="coverage/AICourse$Second.coverage" NAME="Second Coverage Results" MODIFIED="1539710466550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gobang" />
-    <SUITE FILE_PATH="coverage/AICourse$evaluate_test__1_.coverage" NAME="evaluate_test (1) Coverage Results" MODIFIED="1539632885787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$reciprocalTest.coverage" NAME="reciprocalTest Coverage Results" MODIFIED="1543675583032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP/Test" />
-    <SUITE FILE_PATH="coverage/AICourse$ISE.coverage" NAME="ISE Coverage Results" MODIFIED="1543687248804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP" />
-    <SUITE FILE_PATH="coverage/AICourse$lambda_test.coverage" NAME="lambda_test Coverage Results" MODIFIED="1539684347303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$pre_counterTest.coverage" NAME="pre_counterTest Coverage Results" MODIFIED="1542521567589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$Submit.coverage" NAME="Submit Coverage Results" MODIFIED="1539714586614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gobang" />
-    <SUITE FILE_PATH="coverage/AICourse$substring_test.coverage" NAME="substring_test Coverage Results" MODIFIED="1539789588553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
-    <SUITE FILE_PATH="coverage/AICourse$Submit_next.coverage" NAME="Submit_next Coverage Results" MODIFIED="1540652959996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gobang" />
-    <SUITE FILE_PATH="coverage/AICourse$listApplyTest.coverage" NAME="listApplyTest Coverage Results" MODIFIED="1542457269017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CARP/Testing" />
+    <SUITE FILE_PATH="coverage/AICourse$ISE.coverage" NAME="ISE Coverage Results" MODIFIED="1543734914843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/IMP/Test/defaultDictTest.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="76">
-                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/IMP/ISE.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="209">
-                  <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-                  <folding>
-                    <element signature="e#0#35#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://D:/Anaconda/Lib/multiprocessing/pool.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="10279">
-                  <caret line="552" selection-start-line="552" selection-end-line="552" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/IMP/Test/randomPerfTest.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret selection-end-line="2" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#0#23#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/IMP/Test/npUniformTest.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="76">
-                  <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-                  <folding>
-                    <element signature="e#0#18#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/CARP/Evaluation.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="798">
-                  <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-                  <folding>
-                    <element signature="e#0#35#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/IMP/Test/elapseTimeTest.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="114">
-                  <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-                  <folding>
-                    <element signature="e#0#23#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/IMP/Test/numpyEfficiencyTest.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="133">
-                  <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/IMP/Test/numpyAppendTest.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="95">
-                  <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/CARP/Evaluation.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="265">
-                  <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#0#35#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMP/ISE.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="135" column="80" selection-start-line="135" selection-start-column="78" selection-end-line="135" selection-end-column="80" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IMP/graph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -259,10 +95,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Gobang/Second.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Gobang/Testing/evaluate_test.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CARP/CARP_solver.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Gobang/First.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Gobang/Second.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Gobang/Testing/evaluate_test.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -315,17 +151,17 @@
         <option value="$PROJECT_DIR$/IMP/Test/elapseTimeTest.py" />
         <option value="$PROJECT_DIR$/IMP/Test/npUniformTest.py" />
         <option value="$PROJECT_DIR$/IMP/Test/defaultDictTest.py" />
-        <option value="$PROJECT_DIR$/IMP/graph.py" />
         <option value="$PROJECT_DIR$/IMP/ISE.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/IMP/graph.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-18" />
     <option name="y" value="-18" />
-    <option name="width" value="2192" />
-    <option name="height" value="2356" />
+    <option name="width" value="2194" />
+    <option name="height" value="2358" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -359,14 +195,16 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -374,11 +212,15 @@
               <item name="AICourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="AICourse" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AICourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AICourse" type="462c0819:PsiDirectoryNode" />
+              <item name="IMP" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -549,10 +391,10 @@
     <list>
       <item itemvalue="Python.floyd_warshall" />
       <item itemvalue="Python.ISE" />
-      <item itemvalue="Python.reciprocalTest" />
+      <item itemvalue="Python.defaultDictTest" />
       <item itemvalue="Python.elapseTimeTest" />
       <item itemvalue="Python.npUniformTest" />
-      <item itemvalue="Python.defaultDictTest" />
+      <item itemvalue="Python.reciprocalTest" />
     </list>
     <recent_temporary>
       <list>
@@ -588,6 +430,7 @@
       <workItem from="1543565009119" duration="9157000" />
       <workItem from="1543659729885" duration="20836000" />
       <workItem from="1543725289276" duration="720000" />
+      <workItem from="1543734696575" duration="186000" />
     </task>
     <task id="LOCAL-00001" summary="Path-Scanning and Output Done">
       <created>1542380134924</created>
@@ -640,7 +483,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97461000" />
+    <option name="totallyTimeSpent" value="97655000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -655,12 +498,12 @@
     <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15273602" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2525556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3261105" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.4225352" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.42216688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46478873" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -833,13 +676,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda/Lib/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="258" selection-start-line="258" selection-end-line="258" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Anaconda/Lib/random.py" />
     <entry file="file://$PROJECT_DIR$/CARP/Testing/[]test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -882,9 +719,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CARP/result_bccm.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CARP/result_bccm.txt" />
     <entry file="file://$PROJECT_DIR$/CARP/CARP_algorithm_reserved.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -895,16 +730,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CARP/result_eglese.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CARP/result_gdb.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CARP/result_eglese.txt" />
+    <entry file="file://$PROJECT_DIR$/CARP/result_gdb.txt" />
     <entry file="file://$PROJECT_DIR$/GA.py" />
     <entry file="file://$PROJECT_DIR$/Test.py" />
     <entry file="file://$PROJECT_DIR$/IMP/inputHandler.py" />
@@ -949,16 +776,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/ndlib/models/epidemics/SIRModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/ndlib/models/epidemics/SIRModel.py" />
     <entry file="file://$PROJECT_DIR$/IMP/Test/avgTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -1002,16 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IMP/Test/defaultDictTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1019,13 +827,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda/Lib/multiprocessing/pool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10279">
-          <caret line="552" selection-start-line="552" selection-end-line="552" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Anaconda/Lib/multiprocessing/pool.py" />
     <entry file="file://$PROJECT_DIR$/IMP/Test/randomPerfTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1080,18 +882,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/IMP/ISE.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        <state relative-caret-position="112">
+          <caret line="135" column="80" selection-start-line="135" selection-start-column="78" selection-end-line="135" selection-end-column="80" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/IMP/graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

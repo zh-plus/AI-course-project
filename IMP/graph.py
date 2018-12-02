@@ -12,7 +12,7 @@ class Graph:
         self.V = V
         self.adj = [set() for _ in range(V + 1)]
         self.reverse_adj = [set() for _ in range(V + 1)]
-        self.weight = defaultdict(float)
+        self.weight = [0 for _ in range(V + 1)]
 
     def add_edge(self, u, v):
         self.adj[u].add(v)
