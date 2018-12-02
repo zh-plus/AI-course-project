@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47ffc3ae-8a03-4d9a-8515-dee8f5b627e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/AICourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AICourse.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -20,11 +21,11 @@
     <SUITE FILE_PATH="coverage/AICourse$ISE.coverage" NAME="ISE Coverage Results" MODIFIED="1543734914843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IMP/ISE.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="2565">
               <caret line="135" column="80" selection-start-line="135" selection-start-column="78" selection-end-line="135" selection-end-column="80" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -33,14 +34,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IMP/graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="190">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -95,10 +105,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/CARP/CARP_solver.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Gobang/First.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Gobang/Second.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Gobang/Testing/evaluate_test.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/CARP/CARP_solver.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Gobang/First.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -160,7 +170,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-18" />
     <option name="y" value="-18" />
-    <option name="width" value="2194" />
+    <option name="width" value="2196" />
     <option name="height" value="2358" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -431,6 +441,7 @@
       <workItem from="1543659729885" duration="20836000" />
       <workItem from="1543725289276" duration="720000" />
       <workItem from="1543734696575" duration="186000" />
+      <workItem from="1543735256307" duration="570000" />
     </task>
     <task id="LOCAL-00001" summary="Path-Scanning and Output Done">
       <created>1542380134924</created>
@@ -483,7 +494,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97655000" />
+    <option name="totallyTimeSpent" value="98225000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,7 +509,7 @@
     <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2525556" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25556225" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -882,12 +893,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/IMP/ISE.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="2565">
           <caret line="135" column="80" selection-start-line="135" selection-start-column="78" selection-end-line="135" selection-end-column="80" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -897,11 +905,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IMP/graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="190">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
