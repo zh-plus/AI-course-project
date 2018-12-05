@@ -10,19 +10,19 @@ class Graph:
     Implemented by adjacent map
     """
 
-    def __init__(self, V):
-        self.V = V
-        self.adj = [set() for _ in range(V + 1)]
-        self.reverse_adj = [set() for _ in range(V + 1)]
-        self.weight = np.zeros(V + 1)
+    def __init__(self, node_size):
+        self.node_size = node_size
+        self.adj = [set() for _ in range(node_size + 1)]
+        self.reverse_adj = [set() for _ in range(node_size + 1)]
+        self.weight = np.zeros(node_size + 1)
 
     def add_edge(self, u, v):
         self.adj[u].add(v)
         self.reverse_adj[v].add(u)
 
     def compute_weight(self):
-        out_degrees = [len(s) for s in self.reverse_adj]
-        for i, degree in enumerate(out_degrees):
+        in_degrees = [len(s) for s in self.reverse_adj]
+        for i, degree in enumerate(in_degrees):
             if degree:
                 self.weight[i] = 1 / degree
 

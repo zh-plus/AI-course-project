@@ -2,16 +2,19 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/Gobang/GobangAI.py" line="233" mnemonic="1" />
-    <bookmark url="file://$PROJECT_DIR$/IMP/Test/npZeroTest.py" line="3" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47ffc3ae-8a03-4d9a-8515-dee8f5b627e6" name="Default Changelist" comment="view graph.weight as list">
-      <change afterPath="$PROJECT_DIR$/IMP/IMP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMP/Test/npZeroTest.py" afterDir="false" />
+    <list default="true" id="47ffc3ae-8a03-4d9a-8515-dee8f5b627e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/IMP/data_handle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMP/hep.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMP/my_seeds.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMP/testseeds.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/AICourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AICourse.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMP/IMP.py" beforeDir="false" afterPath="$PROJECT_DIR$/IMP/IMP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMP/ISE.py" beforeDir="false" afterPath="$PROJECT_DIR$/IMP/ISE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMP/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/IMP/graph.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,19 +23,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/AICourse$npZeroTest.coverage" NAME="npZeroTest Coverage Results" MODIFIED="1543737116908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP/Test" />
-    <SUITE FILE_PATH="coverage/AICourse$ISE.coverage" NAME="ISE Coverage Results" MODIFIED="1543737241344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP" />
+    <SUITE FILE_PATH="coverage/AICourse$IMP.coverage" NAME="IMP Coverage Results" MODIFIED="1543986315696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP" />
+    <SUITE FILE_PATH="coverage/AICourse$ISE.coverage" NAME="ISE Coverage Results" MODIFIED="1543984125024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP" />
+    <SUITE FILE_PATH="coverage/AICourse$basic.coverage" NAME="basic Coverage Results" MODIFIED="1543977942095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP/multi_processStudy" />
+    <SUITE FILE_PATH="coverage/AICourse$data_handle.coverage" NAME="data_handle Coverage Results" MODIFIED="1543942158457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IMP/ISE.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="129" selection-start-line="129" selection-end-line="145" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -40,34 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IMP/IMP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="e#0#4#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMP/network.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMP/graph.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMP/Test/npZeroTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            <state relative-caret-position="513">
+              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -76,10 +52,82 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMP/testseeds.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMP/multi_processStudy/basic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CARP/Evaluation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMP/graph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMP/Amazon.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMP/data_handle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMP/DBLP.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -134,19 +182,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/CARP/CARP_solver.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Gobang/First.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Gobang/Second.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Gobang/Testing/evaluate_test.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/CARP/CARP_solver.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Gobang/First.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CARP/Testing/argvTest.py" />
-        <option value="$PROJECT_DIR$/CARP/Testing/intBooleanTest.py" />
-        <option value="$PROJECT_DIR$/CARP/Testing/dictCopyTest.py" />
-        <option value="$PROJECT_DIR$/CARP/Testing/setHashTest.py" />
-        <option value="$PROJECT_DIR$/CARP/Testing/setPopTest.py" />
         <option value="$PROJECT_DIR$/CARP/Testing/recurrenceList.py" />
         <option value="$PROJECT_DIR$/CARP/CARP_demo.py" />
         <option value="$PROJECT_DIR$/CARP/ga-for-cvrp-master/cvrp_advancedga.py" />
@@ -189,17 +232,22 @@
         <option value="$PROJECT_DIR$/IMP/Test/npUniformTest.py" />
         <option value="$PROJECT_DIR$/IMP/Test/defaultDictTest.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/IMP/Test/outerTest.py" />
+        <option value="$PROJECT_DIR$/data_handle.py" />
+        <option value="$PROJECT_DIR$/IMP/DBLP.txt" />
+        <option value="$PROJECT_DIR$/IMP/data_handle.py" />
+        <option value="$PROJECT_DIR$/IMP/multi_processStudy/basic.py" />
+        <option value="$PROJECT_DIR$/IMP/testseeds.txt" />
         <option value="$PROJECT_DIR$/IMP/graph.py" />
-        <option value="$PROJECT_DIR$/IMP/Test/npZeroTest.py" />
         <option value="$PROJECT_DIR$/IMP/ISE.py" />
         <option value="$PROJECT_DIR$/IMP/IMP.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-12" />
-    <option name="width" value="1944" />
-    <option name="height" value="2082" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-14" />
+    <option name="width" value="2192" />
+    <option name="height" value="2167" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -235,14 +283,13 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
-    <option name="STATE" value="1" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,32 +300,38 @@
             <path>
               <item name="AICourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="AICourse" type="462c0819:PsiDirectoryNode" />
+              <item name="CARP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AICourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AICourse" type="462c0819:PsiDirectoryNode" />
               <item name="IMP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\10578\PycharmProjects\AICourse\IMP" />
+      <recent name="C:\Users\10578\PycharmProjects\AICourse\IMP\Test" />
+      <recent name="C:\Users\10578\PycharmProjects\AICourse\CARP" />
+      <recent name="C:\Users\10578\PycharmProjects\AICourse\CARP\Testing" />
+      <recent name="C:\Users\10578\PycharmProjects\AICourse\Gobang" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\10578\PycharmProjects\AICourse\IMP" />
       <recent name="C:\Users\10578\PycharmProjects\AICourse\CARP" />
       <recent name="C:\Users\10578\PycharmProjects\AICourse\CARP\CARP_samples" />
       <recent name="C:\Users\10578\PycharmProjects\AICourse\Gobang" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\10578\PycharmProjects\AICourse\IMP\Test" />
-      <recent name="C:\Users\10578\PycharmProjects\AICourse\CARP" />
-      <recent name="C:\Users\10578\PycharmProjects\AICourse\CARP\Testing" />
-      <recent name="C:\Users\10578\PycharmProjects\AICourse\Gobang" />
-      <recent name="C:\Users\10578\PycharmProjects\AICourse\Testing" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -293,7 +346,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ISE">
+  <component name="RunManager" selected="Python.IMP">
+    <configuration name="IMP" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AICourse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IMP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IMP/IMP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ISE" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AICourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -308,6 +383,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IMP/ISE.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="basic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AICourse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IMP/multi_processStudy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IMP/multi_processStudy/basic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_handle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AICourse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IMP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IMP/data_handle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -338,28 +457,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="elapseTimeTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AICourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IMP/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IMP/Test/elapseTimeTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="floyd_warshall" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AICourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -382,65 +479,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="npUniformTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AICourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IMP/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IMP/Test/npUniformTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="npZeroTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AICourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IMP/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IMP/Test/npZeroTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.floyd_warshall" />
       <item itemvalue="Python.ISE" />
       <item itemvalue="Python.defaultDictTest" />
-      <item itemvalue="Python.elapseTimeTest" />
-      <item itemvalue="Python.npUniformTest" />
-      <item itemvalue="Python.npZeroTest" />
+      <item itemvalue="Python.IMP" />
+      <item itemvalue="Python.data_handle" />
+      <item itemvalue="Python.basic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.IMP" />
         <item itemvalue="Python.ISE" />
-        <item itemvalue="Python.npZeroTest" />
+        <item itemvalue="Python.basic" />
+        <item itemvalue="Python.data_handle" />
         <item itemvalue="Python.defaultDictTest" />
-        <item itemvalue="Python.npUniformTest" />
-        <item itemvalue="Python.elapseTimeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -468,7 +521,12 @@
       <workItem from="1543565009119" duration="9157000" />
       <workItem from="1543659729885" duration="20836000" />
       <workItem from="1543725289276" duration="720000" />
-      <workItem from="1543734696575" duration="1633000" />
+      <workItem from="1543734696575" duration="186000" />
+      <workItem from="1543735256307" duration="2672000" />
+      <workItem from="1543842677516" duration="1158000" />
+      <workItem from="1543925696709" duration="666000" />
+      <workItem from="1543934030985" duration="8289000" />
+      <workItem from="1543942345367" duration="14102000" />
     </task>
     <task id="LOCAL-00001" summary="Path-Scanning and Output Done">
       <created>1542380134924</created>
@@ -512,12 +570,12 @@
       <option name="project" value="LOCAL" />
       <updated>1543725343491</updated>
     </task>
-    <task id="LOCAL-00007" summary="view graph.weight as list">
-      <created>1543734956509</created>
+    <task id="LOCAL-00007" summary="delete graph print">
+      <created>1543736796362</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1543734956509</updated>
+      <updated>1543736796363</updated>
     </task>
     <option name="localTasksCounter" value="8" />
     <servers />
@@ -528,7 +586,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99102000" />
+    <option name="totallyTimeSpent" value="124542000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,16 +598,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="864" height="925" extended-state="0" />
+    <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25742576" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12387252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3261105" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.20603015" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46478873" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.25404733" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49837488" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -597,8 +655,8 @@
     <MESSAGE value="CARP Project finished" />
     <MESSAGE value="Update Testing Environment" />
     <MESSAGE value=" create IMP project, ISE done" />
-    <MESSAGE value="view graph.weight as list" />
-    <option name="LAST_COMMIT_MESSAGE" value="view graph.weight as list" />
+    <MESSAGE value="delete graph print" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete graph print" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -655,8 +713,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/IMP/ISE.py</url>
-          <line>106</line>
-          <option name="timeStamp" value="81" />
+          <line>83</line>
+          <option name="timeStamp" value="88" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -667,39 +725,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CARP/CARP_samples/egl-s1-A.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CARP/Testing/listRemoveTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CARP/Testing/listApplyTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CARP/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/AICourse.iml" />
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml" />
-    <entry file="file://$PROJECT_DIR$/CARP/Testing/multiTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CARP/Testing/setTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -790,6 +815,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/IMP/network.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/IMP/timer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -828,12 +856,6 @@
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/seeds.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/seeds2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/IMP/seeds3.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -907,59 +929,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CARP/Evaluation.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1310655275/_socket.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="4199">
+          <caret line="221" column="7" selection-start-line="221" selection-start-column="7" selection-end-line="221" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMP/Test/outerTest.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMP/seeds2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMP/seeds.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMP/Amazon.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMP/data_handle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMP/DBLP.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/graph.py">
+    <entry file="file://$PROJECT_DIR$/CARP/Evaluation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/Test/npZeroTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/network.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/ISE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="129" selection-start-line="129" selection-end-line="145" />
+        <state relative-caret-position="304">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/IMP/multi_processStudy/basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMP/testseeds.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMP/graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMP/ISE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IMP/IMP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="513">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
           <folding>
-            <element signature="e#0#4#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

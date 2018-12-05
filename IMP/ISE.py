@@ -1,9 +1,8 @@
-from argparse import ArgumentParser
 import random
-from multiprocessing import Pool
-from copy import copy
 import numpy as np
 from time import perf_counter
+from copy import copy
+from argparse import ArgumentParser
 
 from graph import Graph, graph_from_file, seed_from_file
 
@@ -13,17 +12,19 @@ def rand_happen(p):
 
 
 class ISE:
-    def __init__(self, graph=None, seeds=None, model=None, time_limit=None):
+    def __init__(self, graph=None, seeds=None, model=None, time_limit=None, step_num=2000):
         """
 
-        :type seeds: list
+        :type seeds: set
         :type graph: Graph
         """
-        args = self.input_parser()
+        if not graph:
+            args = self.input_parser()
         self.graph = graph_from_file(args.i) if not graph else graph
         self.seeds = seed_from_file(args.s) if not seeds else seeds
         self.model = args.m if not model else model
-        self.time_limit = args.t if not time_limit else time_limit
+        self.time_limit = args.t if not graph else time_limit
+        self.step_num = step_num
 
     @staticmethod
     def input_parser():
@@ -35,7 +36,7 @@ class ISE:
 
         return parser.parse_args()
 
-    def run(self):
+    def run_time_limit(self):  # according to time limit
         start = perf_counter()
 
         step = self.LT if self.model == 'LT' else self.IC
@@ -63,20 +64,27 @@ class ISE:
 
         return np.average(influence)
 
+    def run_step_limit(self):  # according to step limit
+        step = self.LT if self.model == 'LT' else self.IC
+
+        influence = [step() for _ in range(self.step_num)]
+
+        return np.average(influence)
+
     def IC(self):
         graph = self.graph
         active_set = copy(self.seeds)
-        pre_active_set = copy(self.seeds)
+        all_active_set = copy(self.seeds)
 
         influenced = len(active_set)
         while len(active_set):
             new_active_set = set()
             for active_node in active_set:
-                inactive_neighbours = graph.get_children(active_node) - pre_active_set
+                inactive_neighbours = graph.get_children(active_node) - all_active_set
                 for inactive_node in inactive_neighbours:
                     weight = graph.get_weight(inactive_node)
                     if rand_happen(weight):
-                        pre_active_set.add(inactive_node)
+                        all_active_set.add(inactive_node)
                         new_active_set.add(inactive_node)
 
             influenced += len(new_active_set)
@@ -84,31 +92,12 @@ class ISE:
 
         return influenced
 
-    # def influence_spread_computation_IC(self, sample_num=10000):
-    #     influence = 0
-    #     for i in range(sample_num):
-    #         node_list = list()
-    #         node_list.extend(self.seeds)
-    #         checked = np.zeros(self.graph.V)
-    #         for node in node_list:
-    #             checked[node - 1] = 1
-    #         while len(node_list) != 0:
-    #             current_node = node_list.pop(0)
-    #             influence += + 1
-    #             children = self.graph.get_children(current_node)
-    #             for child in children:
-    #                 if checked[child - 1] == 0:
-    #                     if rand_happen(self.graph.get_weight(current_node, child)):
-    #                         checked[child - 1] = 1
-    #                         node_list.append(child)
-    #     return influence
-
     def LT(self):
         graph = self.graph
         active_set = copy(self.seeds)
         pre_active_set = copy(self.seeds)
 
-        threshold = np.random.random(graph.V + 1)
+        threshold = np.random.random(graph.node_size + 1)
         influenced = len(active_set)
         while len(active_set):
             new_active_set = set()
@@ -133,13 +122,15 @@ if __name__ == '__main__':
     start = perf_counter()
 
     if len(sys.argv) == 1:
-        sys.argv = ['ISE.py', '-i', 'network.txt', '-s', 'seeds2.txt', '-m', 'IC', '-t', '5']
+        sys.argv = ['ISE.py', '-i', 'hep.txt', '-s', 'testseeds.txt', '-m', 'IC', '-t', '1']
 
     ise = ISE()
     elapse = perf_counter() - start
     ise.time_limit -= elapse
 
-    result = ise.run()
+    result = ise.run_step_limit()
     print(result)
-
     print(perf_counter() - start, 's')
+    print(elapse)
+
+    sys.exit(0)
