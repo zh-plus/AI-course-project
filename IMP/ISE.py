@@ -12,7 +12,7 @@ def rand_happen(p):
 
 
 class ISE:
-    def __init__(self, graph=None, seeds=None, model=None, time_limit=None, step_num=2000):
+    def __init__(self, graph=None, seeds=None, model=None, time_limit=None, step_num=5000):
         """
 
         :type seeds: set
@@ -36,33 +36,33 @@ class ISE:
 
         return parser.parse_args()
 
-    def run_time_limit(self):  # according to time limit
-        start = perf_counter()
-
-        step = self.LT if self.model == 'LT' else self.IC
-
-        # pool = Pool(processes=8)
-
-        self.time_limit -= perf_counter() - start
-
-        influence = []
-        avg_time = 0
-        counter = 0
-        while self.time_limit > avg_time * 1.5:
-            this_start = perf_counter()
-
-            influence.append(step())
-
-            this_time = perf_counter() - this_start
-            avg_time = 0.2 * avg_time + this_time * 0.8
-
-            # print('this_time: {}\tavg_time: {}\ttime_left: {}'.format(this_time, avg_time, self.time_limit))
-            self.time_limit -= this_time
-            counter += 1
-
-        print('counter:', counter)
-
-        return np.average(influence)
+    # def run_time_limit(self):  # according to time limit
+    #     start = perf_counter()
+    #
+    #     step = self.LT if self.model == 'LT' else self.IC
+    #
+    #     # pool = Pool(processes=8)
+    #
+    #     self.time_limit -= perf_counter() - start
+    #
+    #     influence = []
+    #     avg_time = 0
+    #     counter = 0
+    #     while self.time_limit > avg_time * 1.5:
+    #         this_start = perf_counter()
+    #
+    #         influence.append(step())
+    #
+    #         this_time = perf_counter() - this_start
+    #         avg_time = 0.2 * avg_time + this_time * 0.8
+    #
+    #         # print('this_time: {}\tavg_time: {}\ttime_left: {}'.format(this_time, avg_time, self.time_limit))
+    #         self.time_limit -= this_time
+    #         counter += 1
+    #
+    #     print('counter:', counter)
+    #
+    #     return np.average(influence)
 
     def run_step_limit(self):  # according to step limit
         step = self.LT if self.model == 'LT' else self.IC
@@ -122,7 +122,7 @@ if __name__ == '__main__':
     start = perf_counter()
 
     if len(sys.argv) == 1:
-        sys.argv = ['ISE.py', '-i', 'hep.txt', '-s', 'testseeds.txt', '-m', 'IC', '-t', '1']
+        sys.argv = ['ISE.py', '-i', 'network.txt', '-s', 'seeds2.txt', '-m', 'IC', '-t', '1']
 
     ise = ISE()
     elapse = perf_counter() - start

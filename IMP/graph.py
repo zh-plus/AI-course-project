@@ -1,8 +1,6 @@
-from typing import List
-
+from math import ceil
 from timer import Timer
 import numpy as np
-from collections import defaultdict
 
 
 class Graph:
@@ -10,8 +8,9 @@ class Graph:
     Implemented by adjacent map
     """
 
-    def __init__(self, node_size):
+    def __init__(self, node_size, edge_size):
         self.node_size = node_size
+        self.edge_size = edge_size
         self.adj = [set() for _ in range(node_size + 1)]
         self.reverse_adj = [set() for _ in range(node_size + 1)]
         self.weight = np.zeros(node_size + 1)
@@ -50,7 +49,7 @@ def graph_from_file(path):
         lines = f.readlines()
         V, E = read_line(lines[0])
 
-        g = Graph(V)
+        g = Graph(V, E)
         for line in lines[1:]:
             g.add_edge(*read_line(line))
         g.compute_weight()
@@ -62,6 +61,10 @@ def seed_from_file(path):
     with open(path, 'r') as f:
         seed = set([int(x) for x in f.readlines()])
     return seed
+
+
+def compute_n(V, E):
+    return ceil(946368.048 / ((V * E) ** 0.5) + 468.403216)
 
 
 if __name__ == '__main__':
