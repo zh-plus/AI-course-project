@@ -19,18 +19,20 @@ Minimax search + Minimax pruning algorithm
 
 
 
+
+
 #### Capacitated Arc Routing Problem Project
 
-Heuristic search + Genetic Algorithm
+- Heuristic search + Genetic Algorithm
 
 
 
 #### Influence Maximization Problem Project
 
-Cost-Effective Lazy Forward Selection (CELF)
+- Cost-Effective Lazy Forward Selection (CELF)
 
 
 
 #### Support Vector Machine Project
 
-Optimize SVM parameters using Sequential Minimal Optimization (SMO)
+- Optimize SVM parameters using Sequential Minimal Optimization (SMO)
