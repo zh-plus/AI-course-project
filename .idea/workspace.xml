@@ -5,21 +5,414 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47ffc3ae-8a03-4d9a-8515-dee8f5b627e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/IMP/Test/nTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVM/SVM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVM/Test/TrueInConditionsTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVM/Test/dotTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVM/Test/listExtendSetTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVM/Test/matrixMultiplyTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVM/algorithm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVM/data_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVM/timer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVM/train_data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AICourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AICourse.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CARP.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gobang.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMP.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SVM.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SVM/algorithm_deprecated.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SVM/algorithm_new.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SVM/iris-virginica.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMP/IMP.py" beforeDir="false" afterPath="$PROJECT_DIR$/IMP/IMP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMP/ISE.py" beforeDir="false" afterPath="$PROJECT_DIR$/IMP/ISE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMP/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/IMP/graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/CARP (2).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/CARP (3).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/CARP (4).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/CARP.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/CARP_algorithm_reserved.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/IOTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/[]test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/argvTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/consequenceEqualTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/delEmptyListTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/diagonalTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/dictCopyTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/edgeTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/extendTets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/hashTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/insertTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/intBooleanTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/listApplyTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/listRemoveTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/multiTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/numpyMatrixLenTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/pre_counterTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/randomSeedTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/recurrenceList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/setHashTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/setTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/solutionTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/Testing/stringTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/cvrp_advancedga.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/cvrp_algorithm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/cvrp_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/cvrp_runner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/beamerposter.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/logo/5889.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/logo/5937.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/logo/logo_cs_qr.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/logo/logo_cs_qr.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/logo/logo_uob_bw.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/logo/logo_uob_bw.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/logo/logo_uob_color.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/logo/logo_uob_color.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/logo/route.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/poster.aux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/poster.cls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/poster.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/poster.nav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/poster.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/poster.snm" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/poster.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/poster.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/q.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/relsize.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/texput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/report/type1cm.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479732885.22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479732946.96.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479736032.93.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479738534.08.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479739395.68.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479739463.94.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479741776.94.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479745585.58.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/adjust_hyper_para.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479745606.11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479745628.01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/adjust_hyper_para.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479745676.84.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479745709.84.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479745810.51.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479745816.16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479745848.49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479745856.51.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479745859.99.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479745862.05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479745864.12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479745893.69.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479745933.16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479745941.34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479745951.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479746072.57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479746107.46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479746136.93.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479746174.79.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479746198.05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479746220.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479746248.08.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479746290.03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479746330.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479746369.06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479746422.14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479746436.54.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479746457.48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479746501.14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479747279.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479747302.54.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479747333.86.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479747457.47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479747644.26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479747828.22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479747893.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479747902.39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479747930.28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479747954.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479747968.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479747980.62.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479747991.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479748003.77.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479748063.74.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479748084.86.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479748183.21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479748269.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479748447.62.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479748486.63.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479748514.98.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479748663.55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479748689.16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479748746.76.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479748763.11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479748808.14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479748875.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479748929.08.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479748947.27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479748994.06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479749044.62.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479749193.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479749378.82.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479749432.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479749646.73.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479749741.71.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479749764.87.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479750213.36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479750653.99.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479750896.09.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479751896.11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479751963.09.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479752013.56.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479752070.94.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479752252.13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479752297.73.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479752394.57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479752425.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479752538.88.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479752574.17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479752610.49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479752752.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479752863.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479752879.11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479752962.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479752980.87.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479753010.94.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479753073.39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479753163.28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479753601.03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479753650.69.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479753943.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479754014.62.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479754022.79.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479754182.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479754480.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479754701.78.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479754796.86.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479754822.44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479754842.36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479754859.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479754964.85.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479755205.64.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479756285.46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479756887.68.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479757642.78.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479757650.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479761818.09.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479761832.06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479761877.48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479765599.75.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479767949.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479767979.16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479767986.18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479768027.45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479768209.85.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479768311.26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479768558.77.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479768742.77.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479768811.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479768878.03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479768986.63.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479769030.72.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479769046.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479769062.06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479769195.06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479769210.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479769249.02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479770048.12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479770444.67.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479770482.03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479770601.96.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479771539.75.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479772075.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479772519.75.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479772973.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479773052.75.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479773252.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479778581.87.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479778606.71.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479778641.82.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479778654.97.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479779030.45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479779046.34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479779071.92.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479779168.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479779515.52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479779629.08.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479779739.24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479779764.78.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479779787.55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479780067.54.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479780103.07.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479780199.12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479780939.87.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479780993.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479781396.72.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479781553.01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479781714.73.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479781736.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479781796.58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479781845.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479782110.17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479782536.25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479782565.55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479782645.57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479782725.95.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479807482.31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479807522.93.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479809431.73.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479810404.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479810851.39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479810911.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479811010.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479811043.39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479811896.44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479812472.39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479812573.37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479813043.11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479813089.96.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479813721.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479813742.83.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479814021.36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479814059.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479814605.78.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479814623.12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479814638.78.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479814705.63.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479814856.84.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479815640.97.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479816937.54.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479817126.01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1479817166.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480016555.75.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480017232.16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480017244.52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480017632.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480030135.74.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480030887.89.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480030913.53.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480030980.49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480031065.74.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480031161.83.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480031200.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480031307.04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480031369.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480031395.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480031512.05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480031671.98.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480031695.83.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480032285.63.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480073972.77.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480082677.78.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480290960.31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480291962.43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480292107.59.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480292131.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480292441.56.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480292536.59.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480292877.89.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480292906.42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480293017.48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480293150.22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480293279.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480293294.98.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480293558.35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480294566.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480294579.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480294619.44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480294642.02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480294658.55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480294682.23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480294720.73.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480294772.39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480294812.89.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480294842.81.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480294970.91.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480294988.81.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480295043.28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480295131.31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480295369.74.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480295384.58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480295403.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480295452.96.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480295549.19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480295604.13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480295752.33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480295770.42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480295834.98.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480295890.93.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480296050.14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480296156.93.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480296183.95.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480296827.14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480296851.39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480296859.34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480297029.67.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480297065.05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480297080.06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480297113.55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480297338.91.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480297506.85.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480297718.94.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480297794.11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480298045.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480298051.11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480298721.17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480299003.25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480299041.91.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480299331.98.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480299367.91.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480299545.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480299577.26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480299634.77.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480299788.96.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480299812.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480300226.31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480300250.49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480300265.44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480300282.77.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480300371.89.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480300404.68.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480300412.01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480300766.85.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480300789.03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480300853.87.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480301450.28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480301988.96.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480302018.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480329516.84.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480329542.63.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480329877.72.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480330271.19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480330297.87.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480330313.39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480330427.37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480330515.32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480330650.25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480330757.98.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480331122.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480331251.62.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480331343.95.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480331344.12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480331350.69.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480332661.73.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480332774.92.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480332776.56.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480332778.31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480333546.82.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/timings/timings_1480335113.12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/validate/CVRPValidater.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/validate/best-solution-101080.part" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/validate/best-solution-101471.part" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/validate/best-solution-156113.part" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/validate/best-solution-160.part" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/validate/best-solution-23308.part" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/validate/best-solution-2960.part" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/validate/best-solution-358401.part" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/validate/best-solution-41438.part" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/validate/best-solution-58.part" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/validate/best-solution-71346.part" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/validate/best-solution.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/validate/cvrp-info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/validate/fruitybun250.vrp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/validate/fruitybun76.vrp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CARP/ref/validate/start-cvrp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/SVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/SVM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/Test/TrueInConditionsTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/Test/dotTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/Test/listExtendSetTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/Test/matrixMultiplyTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/algorithm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/data_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/data_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/ref/SMO.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/train_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/train_data.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,28 +421,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/AICourse$IMP.coverage" NAME="IMP Coverage Results" MODIFIED="1544536652058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP" />
-    <SUITE FILE_PATH="coverage/AICourse$TrueInConditionsTest.coverage" NAME="TrueInConditionsTest Coverage Results" MODIFIED="1545930124643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM/Test" />
+    <SUITE FILE_PATH="coverage/AICourse$SMO.coverage" NAME="SMO Coverage Results" MODIFIED="1546110290461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM/ref" />
+    <SUITE FILE_PATH="coverage/AICourse$TrueInConditionsTest.coverage" NAME="TrueInConditionsTest Coverage Results" MODIFIED="1546261435506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM/Test" />
     <SUITE FILE_PATH="coverage/AICourse$nTest.coverage" NAME="nTest Coverage Results" MODIFIED="1544531571718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP/Test" />
     <SUITE FILE_PATH="coverage/AICourse$dotTest.coverage" NAME="dotTest Coverage Results" MODIFIED="1545918913872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM/Test" />
     <SUITE FILE_PATH="coverage/AICourse$algorithm.coverage" NAME="algorithm Coverage Results" MODIFIED="1545924587834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
-    <SUITE FILE_PATH="coverage/AICourse$data_process.coverage" NAME="data_process Coverage Results" MODIFIED="1545912913918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
-    <SUITE FILE_PATH="coverage/AICourse$ISE.coverage" NAME="ISE Coverage Results" MODIFIED="1544526963830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP" />
     <SUITE FILE_PATH="coverage/AICourse$listExtendSetTest.coverage" NAME="listExtendSetTest Coverage Results" MODIFIED="1545928017366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM/Test" />
+    <SUITE FILE_PATH="coverage/AICourse$svm.coverage" NAME="svm Coverage Results" MODIFIED="1546110375182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM/ref/SVM-and-sequential-minimal-optimization-master" />
     <SUITE FILE_PATH="coverage/AICourse$matrixMultiplyTest.coverage" NAME="matrixMultiplyTest Coverage Results" MODIFIED="1545929525342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM/Test" />
     <SUITE FILE_PATH="coverage/AICourse$basic.coverage" NAME="basic Coverage Results" MODIFIED="1543977942095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP/multi_processStudy" />
-    <SUITE FILE_PATH="coverage/AICourse$test.coverage" NAME="test Coverage Results" MODIFIED="1544885657954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP/Test" />
+    <SUITE FILE_PATH="coverage/AICourse$test.coverage" NAME="test Coverage Results" MODIFIED="1546110650525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM/ref/SVM-w-SMO-master" />
+    <SUITE FILE_PATH="coverage/AICourse$SVM.coverage" NAME="SVM Coverage Results" MODIFIED="1546271461891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
+    <SUITE FILE_PATH="coverage/AICourse$IMP.coverage" NAME="IMP Coverage Results" MODIFIED="1544536652058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP" />
+    <SUITE FILE_PATH="coverage/AICourse$ndarrayTest.coverage" NAME="ndarrayTest Coverage Results" MODIFIED="1546259712010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM/Test" />
+    <SUITE FILE_PATH="coverage/AICourse$data_process.coverage" NAME="data_process Coverage Results" MODIFIED="1546176103906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
+    <SUITE FILE_PATH="coverage/AICourse$ISE.coverage" NAME="ISE Coverage Results" MODIFIED="1544526963830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP" />
+    <SUITE FILE_PATH="coverage/AICourse$adjust_hyper_para.coverage" NAME="adjust_hyper_para Coverage Results" MODIFIED="1546267471921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
+    <SUITE FILE_PATH="coverage/AICourse$counterTest.coverage" NAME="counterTest Coverage Results" MODIFIED="1546236668550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM/Test" />
+    <SUITE FILE_PATH="coverage/AICourse$my_SVM.coverage" NAME="my_SVM Coverage Results" MODIFIED="1546269495651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
     <SUITE FILE_PATH="coverage/AICourse$data_handle.coverage" NAME="data_handle Coverage Results" MODIFIED="1543942158457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IMP" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMP/IMP.py">
+        <entry file="file://$PROJECT_DIR$/SVM/adjust_hyper_para.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1741">
-              <caret line="110" selection-start-line="110" selection-end-line="130" />
+            <state relative-caret-position="912">
+              <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SVM/Image/pycallgraph.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMP/Test/numpyAppendTest.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IMP/Test/numpyEfficiencyTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,8 +480,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SVM/data_process.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="342">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -68,75 +490,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CARP/CARP_algorithm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="307" column="49" lean-forward="true" selection-start-line="307" selection-start-column="49" selection-end-line="307" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SVM/algorithm_new.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-570">
+              <caret line="139" column="26" lean-forward="true" selection-start-line="139" selection-start-column="26" selection-end-line="139" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SVM/algorithm_deprecated.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1349">
+              <caret line="117" column="13" lean-forward="true" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CARP/result_bccm.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SVM/SVM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SVM/algorithm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SVM/Test/TrueInConditionsTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SVM/Test/listExtendSetTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SVM/Test/matrixMultiplyTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SVM/Test/dotTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SVM/timer.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SVM/train_data.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="19">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -152,10 +551,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>usability</find>
-      <find>temp</find>
-      <find>op</find>
-      <find>exist</find>
       <find>time</find>
       <find>advance</find>
       <find>kill_actions</find>
@@ -175,13 +570,17 @@
       <find>max_kill</find>
       <find>return</find>
       <find>tasks</find>
-      <find>print</find>
       <find>weight</find>
       <find>1</find>
       <find>runIAC</find>
       <find>avgIAC</find>
       <find>json</find>
       <find>Pool</find>
+      <find>e_cache</find>
+      <find>smo.w</find>
+      <find>cached_E</find>
+      <find>kernel</find>
+      <find>print</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\10578\PycharmProjects\AICourse\Gobang</dir>
@@ -191,25 +590,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Gobang/Testing/evaluate_test.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CARP/CARP_solver.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Gobang/First.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Gobang/Second.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Gobang/Testing/evaluate_test.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CARP/Testing/randomSeedTest.py" />
-        <option value="$PROJECT_DIR$/CARP/Testing/delEmptyListTest.py" />
-        <option value="$PROJECT_DIR$/CARP/Testing/pre_counterTest.py" />
-        <option value="$PROJECT_DIR$/CARP/test.py" />
-        <option value="$PROJECT_DIR$/CARP/floyd_warshall.py" />
-        <option value="$PROJECT_DIR$/CARP/Testing/listRemoveTest.py" />
-        <option value="$PROJECT_DIR$/CARP/Testing/[]test.py" />
-        <option value="$PROJECT_DIR$/CARP/Testing/extendTets.py" />
-        <option value="$PROJECT_DIR$/CARP/Testing/setTest.py" />
-        <option value="$PROJECT_DIR$/CARP/Testing/multiTest.py" />
-        <option value="$PROJECT_DIR$/CARP/CARP_algorithm.py" />
         <option value="$PROJECT_DIR$/CARP/result_eglese.txt" />
         <option value="$PROJECT_DIR$/CARP/CARP_info.py" />
         <option value="$PROJECT_DIR$/CARP/CARP_solver.py" />
@@ -242,19 +630,30 @@
         <option value="$PROJECT_DIR$/IMP/ISE.py" />
         <option value="$PROJECT_DIR$/IMP/IMP.py" />
         <option value="$PROJECT_DIR$/IMP/Test/test.py" />
-        <option value="$PROJECT_DIR$/SVM/data_process.py" />
         <option value="$PROJECT_DIR$/SVM/Test/timer.py" />
         <option value="$PROJECT_DIR$/SVM/Test/dotTest.py" />
-        <option value="$PROJECT_DIR$/SVM/SVM.py" />
         <option value="$PROJECT_DIR$/SVM/Test/listExtendSetTest.py" />
         <option value="$PROJECT_DIR$/SVM/Test/matrixMultiplyTest.py" />
-        <option value="$PROJECT_DIR$/SVM/Test/TrueInConditionsTest.py" />
+        <option value="$PROJECT_DIR$/SVM/ref/SMO.py" />
+        <option value="$PROJECT_DIR$/SVM/ref/SVM-and-sequential-minimal-optimization-master/svm.py" />
+        <option value="$PROJECT_DIR$/SVM/ref/SVM-w-SMO-master/SVM.py" />
+        <option value="$PROJECT_DIR$/SVM/ref/SVM-w-SMO-master/test.py" />
         <option value="$PROJECT_DIR$/SVM/algorithm.py" />
+        <option value="$PROJECT_DIR$/SVM/Test/counterTest.py" />
+        <option value="$PROJECT_DIR$/SVM/Test/ndarrayTest.py" />
+        <option value="$PROJECT_DIR$/SVM/Test/TrueInConditionsTest.py" />
+        <option value="$PROJECT_DIR$/SVM/algorithm_new.py" />
+        <option value="$PROJECT_DIR$/SVM/adjust_hyper_para.py" />
+        <option value="$PROJECT_DIR$/SVM/my_SVM.py" />
+        <option value="$PROJECT_DIR$/SVM/data_process.py" />
+        <option value="$PROJECT_DIR$/SVM/SVM.py" />
+        <option value="$PROJECT_DIR$/CARP/CARP_algorithm_reserved.py" />
+        <option value="$PROJECT_DIR$/CARP/CARP_demo.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -299,7 +698,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,21 +705,11 @@
               <item name="AICourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="AICourse" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AICourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AICourse" type="462c0819:PsiDirectoryNode" />
-              <item name="SVM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AICourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AICourse" type="462c0819:PsiDirectoryNode" />
-              <item name="SVM" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,18 +719,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\10578\PycharmProjects\AICourse" />
       <recent name="C:\Users\10578\PycharmProjects\AICourse\SVM" />
+      <recent name="C:\Users\10578\PycharmProjects\AICourse\SVM\ref" />
       <recent name="C:\Users\10578\PycharmProjects\AICourse\IMP" />
       <recent name="C:\Users\10578\PycharmProjects\AICourse\CARP" />
-      <recent name="C:\Users\10578\PycharmProjects\AICourse\CARP\CARP_samples" />
-      <recent name="C:\Users\10578\PycharmProjects\AICourse\Gobang" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\10578\PycharmProjects\AICourse\SVM\Image" />
       <recent name="C:\Users\10578\PycharmProjects\AICourse\IMP" />
       <recent name="C:\Users\10578\PycharmProjects\AICourse\IMP\Test" />
       <recent name="C:\Users\10578\PycharmProjects\AICourse\CARP" />
       <recent name="C:\Users\10578\PycharmProjects\AICourse\CARP\Testing" />
-      <recent name="C:\Users\10578\PycharmProjects\AICourse\Gobang" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -357,7 +745,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TrueInConditionsTest">
+  <component name="RunManager" selected="Python.SVM">
+    <configuration name="SVM" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AICourse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SVM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM/SVM.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TrueInConditionsTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AICourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -380,7 +790,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="adjust_hyper_para" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AICourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -393,29 +803,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM/algorithm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dotTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AICourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SVM/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM/Test/dotTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM/adjust_hyper_para.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -446,7 +834,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="listExtendSetTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="my_SVM" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AICourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -454,12 +842,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SVM/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SVM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM/Test/listExtendSetTest.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\10578\PycharmProjects\AICourse\SVM\SVM.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -468,7 +856,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="matrixMultiplyTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ndarrayTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AICourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -481,7 +869,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM/Test/matrixMultiplyTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM/Test/ndarrayTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -492,19 +880,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.floyd_warshall" />
-      <item itemvalue="Python.dotTest" />
-      <item itemvalue="Python.algorithm" />
-      <item itemvalue="Python.matrixMultiplyTest" />
-      <item itemvalue="Python.listExtendSetTest" />
+      <item itemvalue="Python.my_SVM" />
+      <item itemvalue="Python.adjust_hyper_para" />
+      <item itemvalue="Python.ndarrayTest" />
       <item itemvalue="Python.TrueInConditionsTest" />
+      <item itemvalue="Python.SVM" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SVM" />
+        <item itemvalue="Python.my_SVM" />
+        <item itemvalue="Python.adjust_hyper_para" />
         <item itemvalue="Python.TrueInConditionsTest" />
-        <item itemvalue="Python.matrixMultiplyTest" />
-        <item itemvalue="Python.listExtendSetTest" />
-        <item itemvalue="Python.algorithm" />
-        <item itemvalue="Python.dotTest" />
+        <item itemvalue="Python.ndarrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -548,6 +936,14 @@
       <workItem from="1545845467264" duration="1374000" />
       <workItem from="1545877073495" duration="63000" />
       <workItem from="1545882394508" duration="13355000" />
+      <workItem from="1545983603747" duration="22393000" />
+      <workItem from="1546110840096" duration="14798000" />
+      <workItem from="1546162944746" duration="23463000" />
+      <workItem from="1546260383845" duration="1382000" />
+      <workItem from="1546261796271" duration="10609000" />
+      <workItem from="1546357971833" duration="664000" />
+      <workItem from="1546400916788" duration="767000" />
+      <workItem from="1552129591267" duration="1996000" />
     </task>
     <task id="LOCAL-00001" summary="Path-Scanning and Output Done">
       <created>1542380134924</created>
@@ -605,7 +1001,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543990734042</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="New SVM project">
+      <created>1545983631365</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1545983631365</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -614,7 +1017,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162878000" />
+    <option name="totallyTimeSpent" value="238950000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -626,22 +1029,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17833698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15191898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3261105" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.25820568" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31744313" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32502708" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.22318527" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43228602" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" sideWeight="0.56171286" weight="0.33333334" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.2537961" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.4355363" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49946696" weight="0.33260393" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -685,7 +1088,8 @@
     <MESSAGE value=" create IMP project, ISE done" />
     <MESSAGE value="delete graph print" />
     <MESSAGE value="IMP CELF done" />
-    <option name="LAST_COMMIT_MESSAGE" value="IMP CELF done" />
+    <MESSAGE value="New SVM project" />
+    <option name="LAST_COMMIT_MESSAGE" value="New SVM project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -745,6 +1149,16 @@
           <line>83</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SVM/data_process.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SVM/adjust_hyper_para.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -754,297 +1168,250 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Test.py" />
-    <entry file="file://$PROJECT_DIR$/IMP/inputHandler.py" />
-    <entry file="file://$PROJECT_DIR$/CARP/CARP_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3002">
-          <caret line="161" column="28" selection-start-line="161" selection-start-column="28" selection-end-line="161" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/Test/bitSetTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/Test/DNLibTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/ndlib/models/epidemics/SIRModel.py" />
-    <entry file="file://$PROJECT_DIR$/IMP/Test/avgTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/Test/01Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/seeds3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/Test/reciprocalTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gobang/GobangAI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="585" column="27" lean-forward="true" selection-start-line="585" selection-start-column="27" selection-end-line="585" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/Test/defaultDictTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/Test/randomPerfTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/Test/npUniformTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/Test/elapseTimeTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/Test/numpyEfficiencyTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/Test/numpyAppendTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1310655275/_socket.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4199">
-          <caret line="221" column="7" selection-start-line="221" selection-start-column="7" selection-end-line="221" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/Test/outerTest.py" />
-    <entry file="file://D:/Anaconda/Lib/site-packages/numpy/core/_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/seeds2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/seeds.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/Amazon.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/testseeds.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/IMAP.py" />
-    <entry file="file://D:/Anaconda/Lib/multiprocessing/pool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12255">
-          <caret line="656" selection-start-line="656" selection-end-line="656" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/multi_processStudy/basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CARP/Evaluation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/Test/nTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/Test/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/network.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/hep.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/data_handle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/DBLP.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CARP/CARP_solver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/ISE.py">
+    <entry file="file://$PROJECT_DIR$/SVM/Test/listExtendSetTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/IMP.py">
+    <entry file="file://$PROJECT_DIR$/SVM/Test/matrixMultiplyTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1741">
-          <caret line="110" selection-start-line="110" selection-end-line="130" />
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/Test/dotTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SVM/Test/timer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM/train_data.txt">
+    <entry file="file://D:/Anaconda/Lib/site-packages/numpy/linalg/linalg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="45391">
+          <caret line="2389" selection-start-line="2389" selection-end-line="2389" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6327">
+          <caret line="334" column="30" selection-start-line="334" selection-start-column="30" selection-end-line="334" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/pprint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3249">
+          <caret line="175" selection-start-line="175" selection-end-line="175" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SVM/timer.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/IMP/timer.py">
+    <entry file="file://$PROJECT_DIR$/SVM/ref/SMO.py" />
+    <entry file="file://$PROJECT_DIR$/SVM/ref/SVM-w-SMO-master/data/iris-slwc.txt" />
+    <entry file="file://$PROJECT_DIR$/SVM/ref/SVM-w-SMO-master/data/iris-versicolor.txt" />
+    <entry file="file://$PROJECT_DIR$/SVM/ref/SVM-w-SMO-master/data/iris-virginica.txt" />
+    <entry file="file://$PROJECT_DIR$/SVM/ref/train_data.txt" />
+    <entry file="file://$PROJECT_DIR$/SVM/ref/SVM-w-SMO-master/test.py" />
+    <entry file="file://$PROJECT_DIR$/SVM/ref/SVM-w-SMO-master/SVM.py" />
+    <entry file="file://$PROJECT_DIR$/SVM/ref/SVM-and-sequential-minimal-optimization-master/svm.py" />
+    <entry file="file://$PROJECT_DIR$/SVM/train_data.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="38">
+          <caret line="2" column="188" selection-start-line="2" selection-start-column="188" selection-end-line="2" selection-end-column="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/breast_cancer_train.txt" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/multiprocessing/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMP/IMP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80028">
+          <caret line="4256" selection-start-line="4256" selection-end-line="4256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/Image/parameter.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/Test/counterTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/my_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/Image/parameter_31_21_07_59.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/Image/parameter_31_21_04_48.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/Test/TrueInConditionsTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/Test/ndarrayTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/my_data_iris.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/Image/parameter_31_22_43_09.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/Image/parameter_31_22_53_13.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/Image/parameter_31_22_14_39.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/multiprocessing/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2071">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/iris-virginica.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="209">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CARP/CARP_solver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CARP/Evaluation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CARP/CARP_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CARP/CARP_algorithm_reserved.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7583">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CARP/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CARP/floyd_warshall.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CARP/CARP_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="75" column="7" lean-forward="true" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
+          <folding>
+            <element signature="e#59#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CARP/result_bccm.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CARP/CARP_algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="307" column="49" lean-forward="true" selection-start-line="307" selection-start-column="49" selection-end-line="307" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SVM/data_process.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -1053,48 +1420,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SVM/SVM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="19">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SVM/Test/listExtendSetTest.py">
+    <entry file="file://$PROJECT_DIR$/SVM/algorithm_new.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="-570">
+          <caret line="139" column="26" lean-forward="true" selection-start-line="139" selection-start-column="26" selection-end-line="139" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SVM/Test/dotTest.py">
+    <entry file="file://$PROJECT_DIR$/SVM/algorithm_deprecated.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="-1349">
+          <caret line="117" column="13" lean-forward="true" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SVM/Test/matrixMultiplyTest.py">
+    <entry file="file://$PROJECT_DIR$/SVM/adjust_hyper_para.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM/Test/TrueInConditionsTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM/algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="912">
+          <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/Image/pycallgraph.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMP/Test/numpyAppendTest.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMP/Test/numpyEfficiencyTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
