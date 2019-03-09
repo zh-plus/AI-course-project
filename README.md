@@ -15,7 +15,7 @@
 
 Minimax search + Minimax pruning algorithm
 
-**I'm sorry that the structure of this project is terrible. Because I make a mistake in estimating the workload of this project, which make me hurrying up to finish this project. I'll try to refactor it in my spare time.**
+*I'm sorry that the structure of this project is terrible. Because I make a mistake in estimating the workload of this project, which make me hurrying up to finish this project. I'll try to refactor it in my spare time.*
 
 
 
