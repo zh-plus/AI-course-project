@@ -25,7 +25,7 @@ Usage: No simple usage here, because the code is API specific.
 
 ###### ref:
 
-[*Searching for Solutions in Games and Artificial Intelligence*](http://digitalarchive.maastrichtuniversity.nl/fedora/get/guid:36b5cf0a-cf06-4602-afdb-1af04d65c23b/ASSET1) 
+[*Searching for Solutions in Games and Artificial Intelligence*](http://www.dphu.org/uploads/attachements/books/books_3721_0.pdf) 
 
 
 
