@@ -15,7 +15,7 @@ Textbook: [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.e
 
 
 
-#### Gobang AI project
+### Gobang AI project
 
 Algorithm: Minimax search + Minimax pruning algorithm
 
@@ -29,7 +29,7 @@ Usage: No simple usage here, because the code is API specific.
 
 
 
-#### Capacitated Arc Routing Problem Project
+### Capacitated Arc Routing Problem Project
 
 Algorithm: Heuristic search + Genetic Algorithm
 
@@ -41,7 +41,7 @@ Usage: `$ python3 CARP_solver.py <sample data path> -t <time limit> -s <random s
 
 
 
-#### Influence Maximization Problem Project
+### Influence Maximization Problem Project
 
 - Cost-Effective Lazy Forward Selection (CELF)
 
@@ -57,7 +57,7 @@ Usage: `$ python3 CARP_solver.py <sample data path> -t <time limit> -s <random s
 
 
 
-#### Support Vector Machine Project
+### Support Vector Machine Project
 
 - Optimize SVM parameters using Sequential Minimal Optimization (SMO)
 
@@ -67,6 +67,6 @@ Usage: `$ python3 CARP_solver.py <sample data path> -t <time limit> -s <random s
 
 [The Simplified SMO Algorithm](http://cs229.stanford.edu/materials/smo.pdf)
 
-[Sequential Minimal Optimization for SVM](ttp://web.cs.iastate.edu/  honavar/smo-svm.pdf)
+[Sequential Minimal Optimization for SVM](ttp://web.cs.iastate.edu/honavar/smo-svm.pdf)
 
 [ ”Machine Learning”](https://www.amazon.cn/dp/B01ARKEV1G)
