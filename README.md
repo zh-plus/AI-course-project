@@ -67,6 +67,6 @@ Usage: `$ python3 CARP_solver.py <sample data path> -t <time limit> -s <random s
 
 [The Simplified SMO Algorithm](http://cs229.stanford.edu/materials/smo.pdf)
 
-[Sequential Minimal Optimization for SVM](ttp://web.cs.iastate.edu/honavar/smo-svm.pdf)
+[Sequential Minimal Optimization for SVM](http://web.cs.iastate.edu/honavar/smo-svm.pdf)
 
 [ ”Machine Learning”](https://www.amazon.cn/dp/B01ARKEV1G)
